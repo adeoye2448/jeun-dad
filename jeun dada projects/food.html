@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeun Dada</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('food-background.jpg') no-repeat center center; 
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.categories, .trending-meals {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+}
+
+.meal-card {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.meal-card h5{
+    color: orangered;
+}
+.meal-card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jeun Dada</h1>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="about us">About Us</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Food wey sweet na money kill am</h2>
+                <p>At Jeun Dada, your satisfaction is our everyday wish, and your tastebud our daily masterclass.</p>
+                <button>Order Now</button>
+            </div>
+        </section>
+        
+        <section class="categories">
+            <h3>Shop by Categories</h3>
+            <div class="category-icons">
+                <div class="category">Swallow</div>
+                <div class="category">Soup</div>
+                <div class="category">Grains</div>
+                <div class="category">Fruits</div>
+            </div>
+        </section>
+
+        <section class="trending-meals">
+            <h3>Hot Trending Meals</h3>
+            <div class="meal-card">
+                <img src="./Rectangle 82 (1).png" alt="Okra Soup">
+                <p>Okra Soup</p>
+                <h5>N1200</h5>
+            </div>
+            <div class="meal-card">
+                <img src="./Rectangle 82 (1).png" alt="Vegetable Soup">
+                <p>Vegetable Soup</p>
+                <h5>N1200</h5>
+            </div>
+            <div class="meal-card">
+                <img src="./Rectangle 82 (1).png" alt="Eba">
+                <p>Eba</p>
+                <h5>N1200</h5>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Jeun Dada. All rights reserved.</p>
+    </footer>
+</body>
+</html>

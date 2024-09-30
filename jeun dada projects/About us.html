@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jeun Dada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+:root{
+    --jeunRed: red;
+    --primary:orange;
+    --secondary:green;
+    --jeunWhite:white;
+    --jeunBlack:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--jeunWhite) ;
+    background-image: url(./page\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+header{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+header .topBar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--jeunBlack);
+    color: var(--jeunWhite);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+header .topBar span{
+    color: var(--primary);
+}
+header .navContainer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    gap: 20px;
+}
+header .navContainer .logo{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navContainer .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+header .navContainer .cart #menu-btn{
+    font-size: 30px;
+    display: none;
+}
+
+header .navContainer nav{
+    height: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header .navContainer #close{
+    font-size: 30px;
+    display: none;
+}
+
+header .navContainer nav ul{
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+header .navContainer nav ul li{
+    list-style: none;
+}
+
+header .navContainer nav ul a{
+    text-decoration: none;
+    color: var(--jeunBlack);
+    font-size: 15px;
+}
+
+header .navContainer .cart{
+    height: auto;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navContainer .cart i{
+    font-size: 20px;
+    color: var(--jeunBlack);
+}
+.first img{
+    width: 100%;
+    position: static;
+}
+.first .align{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topBar"><span>ALERT:</span> 10% DISCOUNT FOR ALL PURCHASES IN THE MONTH OF JU...</div>
+
+        <div class="navContainer">
+            <div class="logo">
+                <img src="./Group 14.png" alt="">
+            </div>
+
+            <nav id="navBar">
+                <i class="fas fa-times" id="close"></i>
+
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./About us.html">About Us</a></li>
+                    <li><a href="./Shop.html">Shop</a></li>
+                    <li><a href="./Contact us.html">Contact Us</a></li>
+                    <li><a href="./Blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="cart">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <i class="fa-solid fa-bars" id="menu-btn"></i>
+            </div>
+        </div>
+    </header>
+    <div class="first">
+        <img src="./Ellipse 134.png" alt=""><p><h1>Our vision is to give everyone</h1></p>
+    </div>
+</body>
+</html>
